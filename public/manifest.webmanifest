@@ -1,0 +1,16 @@
+{
+  "name": "Lutri Eszpresszó – Békásmegyer",
+  "short_name": "Lutri",
+  "description": "Eszpresszó és söröző a békásmegyeri piac mellett: kávé, csapolt sör, fröccs, meccs és terasz.",
+  "lang": "hu",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f0b09",
+  "theme_color": "#0f0b09",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

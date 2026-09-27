@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="hu" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.className = "js";</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lutri Eszpresszó – kávé, csapolt sör és terasz a békásmegyeri piacnál</title>
+  <meta name="description" content="Családias eszpresszó és söröző a békásmegyeri piac mellett: reggel héttől kávé, csapolt Kronenbourg, fröccs, meccsek több képernyőn és nagy terasz. 1039 Budapest, Heltai Jenő tér 2.">
+  <meta name="theme-color" content="#0f0b09">
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lutri Eszpresszó">
+  <meta property="og:title" content="Lutri Eszpresszó – Békásmegyer">
+  <meta property="og:description" content="Reggel kávé. Este sör. Mindig telitalálat. Eszpresszó és söröző a békásmegyeri piac mellett, nagy terasszal.">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="hu_HU">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="assets/fonts/yellowtail-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/fraunces-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preconnect" href="https://api.open-meteo.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarOrPub",
+    "name": "Lutri Eszpresszó",
+    "alternateName": "Lutri Söröző Békásmegyer",
+    "description": "Családias eszpresszó és söröző a békásmegyeri piac mellett: kávé reggel héttől, csapolt sör, fröccs, sportközvetítések és nagy terasz.",
+    "servesCuisine": ["Kávé", "Sör", "Fröccs"],
+    "priceRange": "$",
+    "image": "assets/og.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Heltai Jenő tér 2.",
+      "postalCode": "1039",
+      "addressLocality": "Budapest",
+      "addressRegion": "III. kerület, Békásmegyer",
+      "addressCountry": "HU"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "07:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "23:00" }
+    ],
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Terasz", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Sportközvetítés", "value": true }
+    ],
+    "sameAs": ["https://www.facebook.com/p/Lutri-S%C3%B6r%C3%B6z%C5%91-B%C3%A9k%C3%A1smegyer-100066663197809/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Ugrás a tartalomra</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ FEJLÉC ============ -->
+  <header class="nav">
+    <a class="nav__logo" href="#top" aria-label="Lutri Eszpresszó – vissza az oldal tetejére">
+      <span class="nav__neon" aria-hidden="true">Lutri</span>
+    </a>
+    <nav id="menu" class="nav__links" aria-label="Fő navigáció">
+      <a href="#hely"><small>01</small>A hely</a>
+      <a href="#nap"><small>02</small>Egy nap</a>
+      <a href="#itallap"><small>03</small>Itallap</a>
+      <a href="#froccs"><small>04</small>Fröccsiskola</a>
+      <a href="#lutri"><small>05</small>Kaparós</a>
+      <a href="#terasz"><small>06</small>Terasz &amp; meccs</a>
+      <a href="#hol"><small>07</small>Hol vagyunk</a>
+    </nav>
+    <span class="status" data-status><span class="status__dot"></span><span data-status-text>H–Szo 7–23 · V 9–23</span></span>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menü">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ NYITÓKÉP ============ -->
+    <section class="hero" id="top">
+      <div class="hero__wall" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <p class="hero__kicker reveal"><span data-greeting>Jó napot</span>, Békásmegyer!</p>
+
+        <h1 class="sign" aria-label="Lutri Eszpresszó">
+          <button class="sign__switch" type="button" aria-label="Neon fel- és lekapcsolása" aria-pressed="true" data-sign-switch>
+            <span class="sign__word" aria-hidden="true"><span>L</span><span>u</span><span class="flick">t</span><span>r</span><span>i</span></span>
+          </button>
+          <span class="sign__sub" aria-hidden="true">Eszpresszó <i>·</i> Söröző</span>
+        </h1>
+
+        <p class="hero__lead reveal">Reggel kávé. Este sör. <em>Mindig telitalálat.</em></p>
+        <p class="hero__text reveal">Családias eszpresszó és söröző a békásmegyeri piac mellett — reggel héttől kávéval,
+          délután fröccsel a napernyők alatt, este csapolt sörrel és meccsel.</p>
+
+        <div class="hero__cta reveal">
+          <a class="btn btn--neon" href="#itallap">Itallap</a>
+          <a class="btn btn--ghost" href="#hol">Merre vagyunk?</a>
+        </div>
+      </div>
+
+      <ul class="hero__strip" aria-label="Röviden">
+        <li><span class="status" data-status><span class="status__dot"></span><span data-status-text>H–Szo 7–23 · V 9–23</span></span></li>
+        <li><a href="#hol">1039 Budapest, Heltai Jenő tér 2.</a></li>
+        <li class="weather-chip" data-weather-chip hidden><span data-weather-icon aria-hidden="true"></span><span data-weather-short></span></li>
+      </ul>
+
+      <a class="hero__scroll" href="#hely" aria-label="Tovább"><span></span></a>
+    </section>
+
+    <!-- ============ FUTÓSZALAG ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Kávé reggel héttől</span><b>✦</b><span>Csapolt Kronenbourg</span><b>✦</b><span>Fröccs minden arányban</span><b>✦</b>
+        <span>Meccsek több képernyőn</span><b>✦</b><span>Nagy terasz, nagy napernyők</span><b>✦</b><span>A piac mellett</span><b>✦</b>
+        <span>Kávé reggel héttől</span><b>✦</b><span>Csapolt Kronenbourg</span><b>✦</b><span>Fröccs minden arányban</span><b>✦</b>
+        <span>Meccsek több képernyőn</span><b>✦</b><span>Nagy terasz, nagy napernyők</span><b>✦</b><span>A piac mellett</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- ============ 01 A HELY ============ -->
+    <section class="section place" id="hely">
+      <div class="wrap place__grid">
+        <div class="place__copy">
+          <p class="eyebrow reveal"><span>01</span> A hely</p>
+          <h2 class="title reveal">A piac sarkán, ahol a&nbsp;pultos <em>már tudja,</em> mit kérsz.</h2>
+          <p class="reveal">A Lutri Békásmegyer szívében, a piaccal szemközt vár: reggel a piacozók és a munkába indulók
+            első kávéja, délután a szomszédok fröccse, este a meccsnézők törzshelye. Kicsi, de barátságos belső tér,
+            kétszemélyes asztalok, és egy nagy terasz hatalmas napernyőkkel.</p>
+          <p class="reveal">Nincs itt semmi flanc — csak rendes kávé, jól csapolt sör, kedves kiszolgálás és olyan árak,
+            amikért a vendégeink visszajárnak.</p>
+        </div>
+
+        <figure class="cup reveal" aria-hidden="true">
+          <svg viewBox="0 0 320 300" class="cup__svg">
+            <defs>
+              <linearGradient id="cupBody" x1="0" x2="1">
+                <stop offset="0" stop-color="#e9dcc4"/><stop offset=".55" stop-color="#fbf4e6"/><stop offset="1" stop-color="#cdbb9c"/>
+              </linearGradient>
+              <radialGradient id="crema" cx=".5" cy=".45" r=".6">
+                <stop offset="0" stop-color="#d9a066"/><stop offset=".7" stop-color="#a8652f"/><stop offset="1" stop-color="#5d3014"/>
+              </radialGradient>
+              <linearGradient id="saucer" x1="0" x2="1">
+                <stop offset="0" stop-color="#d7c7aa"/><stop offset=".5" stop-color="#f6eedd"/><stop offset="1" stop-color="#bfae90"/>
+              </linearGradient>
+            </defs>
+            <g class="cup__steam" fill="none" stroke="#f2e6d0" stroke-width="5" stroke-linecap="round">
+              <path d="M132 118c-14-18 14-30 0-50s14-32 0-52"/>
+              <path d="M162 112c-14-18 14-30 0-50s14-32 0-52"/>
+              <path d="M192 118c-14-18 14-30 0-50s14-32 0-52"/>
+            </g>
+            <ellipse cx="160" cy="262" rx="138" ry="26" fill="url(#saucer)"/>
+            <ellipse cx="160" cy="256" rx="96" ry="14" fill="#cbb999"/>
+            <path d="M246 170c34-6 44 36 10 50-10 4-22 4-30 2" fill="none" stroke="#efe4cf" stroke-width="13"/>
+            <path d="M72 150h176c0 64-30 104-88 104s-88-40-88-104z" fill="url(#cupBody)"/>
+            <ellipse cx="160" cy="150" rx="88" ry="18" fill="#efe4cf"/>
+            <ellipse cx="160" cy="152" rx="78" ry="13" fill="url(#crema)"/>
+            <path d="M138 150c10-6 34-6 44 0-8 5-36 5-44 0z" fill="#e8bd8a" opacity=".7"/>
+            <text x="160" y="214" text-anchor="middle" class="cup__logo">Lutri</text>
+          </svg>
+        </figure>
+      </div>
+
+      <div class="wrap features">
+        <article class="feature reveal">
+          <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M9 18h26v8a13 13 0 0 1-26 0z M35 21h3a5 5 0 0 1 0 10h-4 M6 42h32 M16 12c-2-3 2-4 0-7 M24 12c-2-3 2-4 0-7"/></svg>
+          <h3>Kávé reggel héttől</h3>
+          <p>Hétköznap és szombaton 7-kor, vasárnap 9-kor nyitunk — a piaci kör előtt vagy után egy gyors eszpresszó mindig belefér.</p>
+        </article>
+        <article class="feature reveal">
+          <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 20c4-10 14-15 20-15s16 5 20 15z M24 20v24 M16 44h16 M24 5V3"/></svg>
+          <h3>Nagy terasz</h3>
+          <p>Hatalmas napernyők alatt, rálátással a piacra. Tavasztól őszig ez Békásmegyer egyik legjobb helye egy hideg italhoz.</p>
+        </article>
+        <article class="feature reveal">
+          <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M5 12h38v24H5z M18 42h12 M24 36v6 M16 5l8 7 8-7"/></svg>
+          <h3>Meccs több képernyőn</h3>
+          <p>Folyamatos sportközvetítés, több tévén. Ha nagy meccs van, érdemes korábban jönni egy jó helyért.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 02 EGY NAP ============ -->
+    <section class="section day" id="nap">
+      <div class="wrap">
+        <p class="eyebrow reveal"><span>02</span> Egy nap a Lutriban</p>
+        <h2 class="title reveal">Hét órától tizenegyig. <em>Minden órának</em> megvan a maga itala.</h2>
+
+        <div class="timeline reveal" data-timeline>
+          <div class="timeline__rail" aria-hidden="true"><div class="timeline__fill" data-timeline-fill></div><div class="timeline__now" data-timeline-now><span>Most</span></div></div>
+          <ol class="timeline__stops">
+            <li data-at="07:00"><time>07:00</time><h3>Első eszpresszó</h3><p>Nyit a piac, nyitunk mi is. Kávé, egy pohár víz, a napi hírek.</p></li>
+            <li data-at="10:00"><time>10:00</time><h3>Piaci szünet</h3><p>Szatyrok a szék mellett, cappuccino vagy egy üdítő a teraszon.</p></li>
+            <li data-at="14:00"><time>14:00</time><h3>Fröccsidő</h3><p>A napernyők alatt hosszúlépés, nagyfröccs — ahogy az időjárás kívánja.</p></li>
+            <li data-at="17:00"><time>17:00</time><h3>Munka után egy korsó</h3><p>Csapolt Kronenbourg, jól behűtve. Itt már mindenki ismerős.</p></li>
+            <li data-at="19:00"><time>19:00</time><h3>Meccs</h3><p>Több képernyő, sok szurkoló, egy kör a győztesre.</p></li>
+            <li data-at="23:00"><time>23:00</time><h3>Záróra</h3><p>Holnap reggel újra kezdjük. Ugyanitt, ugyanígy.</p></li>
+          </ol>
+        </div>
+        <p class="day__note" data-day-note aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- ============ 03 ITALLAP ============ -->
+    <section class="section menu" id="itallap">
+      <div class="wrap">
+        <div class="menu__head">
+          <p class="eyebrow reveal"><span>03</span> Itallap</p>
+          <h2 class="title reveal">Rendes kávé, <em>jól csapolt</em> sör, barátságos árak.</h2>
+          <p class="menu__intro reveal">Az aktuális kínálat és árak a pultnál vannak kiírva — itt az, amiért a legtöbben betérnek.</p>
+        </div>
+
+        <!-- Árak: a <b class="price"></b> közé írd be (pl. <b class="price">450 Ft</b>); üresen nem jelenik meg. -->
+        <div class="menu__grid">
+          <article class="menu__card reveal">
+            <h3><span>Kávé</span><small>reggel héttől</small></h3>
+            <ul>
+              <li><span class="item">Eszpresszó</span><i></i><b class="price"></b><em>rövid, erős, crema a tetején</em></li>
+              <li><span class="item">Dupla eszpresszó</span><i></i><b class="price"></b><em>ha hosszú lesz a nap</em></li>
+              <li><span class="item">Hosszú kávé</span><i></i><b class="price"></b><em>lassú reggelekhez</em></li>
+              <li><span class="item">Cappuccino</span><i></i><b class="price"></b><em>tejhabbal</em></li>
+              <li><span class="item">Tea</span><i></i><b class="price"></b><em>több ízben</em></li>
+            </ul>
+          </article>
+
+          <article class="menu__card menu__card--star reveal">
+            <h3><span>Sör</span><small>csapolva és üvegben</small></h3>
+            <ul>
+              <li><span class="item">Kronenbourg, csapolt</span><i></i><b class="price"></b><em>korsóban vagy pohárban</em></li>
+              <li><span class="item">Üveges sörök</span><i></i><b class="price"></b><em>világos, barna, ízesített</em></li>
+              <li><span class="item">Alkoholmentes sör</span><i></i><b class="price"></b><em>a sofőröknek is jár</em></li>
+            </ul>
+            <p class="menu__stamp" aria-hidden="true">Csapolva<br>hidegen</p>
+          </article>
+
+          <article class="menu__card reveal">
+            <h3><span>Bor &amp; fröccs</span><small>szódával</small></h3>
+            <ul>
+              <li><span class="item">Kisfröccs, nagyfröccs</span><i></i><b class="price"></b><em>a klasszikusok</em></li>
+              <li><span class="item">Hosszúlépés, házmester</span><i></i><b class="price"></b><em>lásd a Fröccsiskolát</em></li>
+              <li><span class="item">Borok pohárban</span><i></i><b class="price"></b><em>fehér, rozé, vörös</em></li>
+            </ul>
+          </article>
+
+          <article class="menu__card reveal">
+            <h3><span>Rövidek</span><small>egy kör a győztesre</small></h3>
+            <ul>
+              <li><span class="item">Pálinka</span><i></i><b class="price"></b><em>több gyümölcsből</em></li>
+              <li><span class="item">Gyógynövénylikőr</span><i></i><b class="price"></b><em>jéghidegen</em></li>
+              <li><span class="item">Whisky, vodka, rum</span><i></i><b class="price"></b><em>tisztán vagy kólával</em></li>
+            </ul>
+          </article>
+
+          <article class="menu__card reveal">
+            <h3><span>Üdítők</span><small>hidegen</small></h3>
+            <ul>
+              <li><span class="item">Szénsavas üdítők</span><i></i><b class="price"></b><em>kóla, narancs, citrom</em></li>
+              <li><span class="item">Gyümölcslevek</span><i></i><b class="price"></b><em>több ízben</em></li>
+              <li><span class="item">Ásványvíz, szóda</span><i></i><b class="price"></b><em>szénsavas vagy mentes</em></li>
+              <li><span class="item">Energiaital</span><i></i><b class="price"></b><em>ha kell a lendület</em></li>
+            </ul>
+          </article>
+        </div>
+        <p class="menu__foot reveal">Szeszes italt csak 18 éven felülieknek szolgálunk ki. Fogyassz felelősen!</p>
+      </div>
+    </section>
+
+    <!-- ============ 04 FRÖCCSISKOLA ============ -->
+    <section class="section spritz" id="froccs">
+      <div class="wrap spritz__grid">
+        <div class="spritz__copy">
+          <p class="eyebrow reveal"><span>04</span> Fröccsiskola</p>
+          <h2 class="title reveal">Kisfröccstől <em>a Krúdyig.</em></h2>
+          <p class="reveal">Magyar találmány, magyar szabályokkal: a bor és a szóda aránya adja a nevét. Válassz egyet, és megmutatjuk,
+            mi kerül a poharadba — a pultnál pedig elég a nevét mondani.</p>
+
+          <div class="spritz__picker reveal" role="radiogroup" aria-label="Fröccsfajták" data-spritz-picker></div>
+
+          <div class="spritz__wine reveal" role="radiogroup" aria-label="Bor színe">
+            <button type="button" role="radio" aria-checked="true" data-wine="white">Fehér</button>
+            <button type="button" role="radio" aria-checked="false" data-wine="rose">Rozé</button>
+            <button type="button" role="radio" aria-checked="false" data-wine="red">Vörös</button>
+          </div>
+        </div>
+
+        <figure class="glass reveal" data-glass data-wine-color="white">
+          <svg viewBox="0 0 200 300" class="glass__svg" aria-hidden="true">
+            <defs>
+              <clipPath id="glassInside"><path d="M42 40h116l-12 226c-1 10-8 16-18 16H72c-10 0-17-6-18-16z"/></clipPath>
+              <linearGradient id="glassShine" x1="0" x2="1">
+                <stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".18" stop-color="#fff" stop-opacity=".05"/>
+                <stop offset=".8" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".16"/>
+              </linearGradient>
+            </defs>
+            <g clip-path="url(#glassInside)">
+              <rect class="glass__soda" x="30" y="60" width="140" height="222"/>
+              <rect class="glass__wineLayer" x="30" y="134" width="140" height="148"/>
+              <g class="glass__bubbles"></g>
+            </g>
+            <ellipse cx="100" cy="288" rx="62" ry="8" fill="#000" opacity=".45"/>
+            <path d="M42 40h116l-12 226c-1 10-8 16-18 16H72c-10 0-17-6-18-16z" fill="url(#glassShine)" stroke="#f2e6d0" stroke-opacity=".55" stroke-width="3"/>
+            <path d="M40 38h120" stroke="#f2e6d0" stroke-opacity=".8" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <figcaption class="glass__caption" aria-live="polite">
+            <strong data-spritz-name>Nagyfröccs</strong>
+            <span data-spritz-ratio>2 dl bor + 1 dl szóda</span>
+            <small data-spritz-note></small>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 05 KAPARÓS ============ -->
+    <section class="section lotto" id="lutri">
+      <div class="wrap lotto__grid">
+        <div class="lotto__copy">
+          <p class="eyebrow reveal"><span>05</span> Lutri</p>
+          <h2 class="title reveal">A lutriban <em>mindenki nyer.</em></h2>
+          <p class="reveal">A nevünk kötelez: kapard le a sorsjegyet, és megmondjuk, mit igyál ma. Ujjal vagy egérrel —
+            és ha nem tetszik, kérj újat.</p>
+          <p class="lotto__fine reveal">Ez csak játék, nem nyereményjáték: a sorsjegy egy tippet rejt, nem ajándékot.</p>
+        </div>
+
+        <div class="ticket reveal" data-ticket>
+          <div class="ticket__paper">
+            <div class="ticket__top">
+              <span class="ticket__brand">Lutri</span>
+              <span class="ticket__serial" data-ticket-serial>Nº 000000</span>
+            </div>
+            <div class="ticket__field">
+              <div class="ticket__prize" data-ticket-prize aria-live="polite">
+                <small>A mai tipped</small>
+                <strong data-ticket-title>Egy hosszúlépés a teraszon</strong>
+                <span data-ticket-text>Fél bor, dupla szóda, sok napsütés.</span>
+              </div>
+              <canvas class="ticket__scratch" data-ticket-canvas aria-hidden="true"></canvas>
+            </div>
+            <div class="ticket__bottom">
+              <span>Kapard le!</span>
+              <span>Érvényes: <b data-ticket-date>ma</b></span>
+            </div>
+          </div>
+          <div class="ticket__actions">
+            <button class="btn btn--ghost btn--sm" type="button" data-ticket-reveal>Felfedem</button>
+            <button class="btn btn--neon btn--sm" type="button" data-ticket-new>Új sorsjegy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 TERASZ & MECCS ============ -->
+    <section class="section duo" id="terasz">
+      <div class="wrap">
+        <p class="eyebrow reveal"><span>06</span> Terasz &amp; meccs</p>
+        <h2 class="title reveal">Kint napernyő, bent <em>képernyő.</em></h2>
+        <div class="duo__grid">
+          <article class="panel panel--sun reveal">
+            <div class="panel__art" aria-hidden="true">
+              <svg viewBox="0 0 240 150">
+                <g class="umbrella"><path d="M20 70c14-40 60-58 100-58s86 18 100 58z" fill="#d6a54a"/>
+                  <path d="M20 70c10-10 30-10 40 0 10-10 30-10 40 0 10-10 30-10 40 0 10-10 30-10 40 0 10-10 30-10 40 0" fill="#b4842c"/>
+                  <path d="M120 12v130" stroke="#f2e6d0" stroke-width="4"/></g>
+                <path d="M60 142h120" stroke="#f2e6d0" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>A terasz most</h3>
+            <div class="weather" data-weather>
+              <p class="weather__temp"><span data-weather-temp>—</span><sup>°C</sup></p>
+              <p class="weather__desc" data-weather-desc>Az időjárás betöltése…</p>
+              <p class="weather__verdict" data-weather-verdict>Nagy napernyők, sok hely — tavasztól őszig.</p>
+            </div>
+            <p class="panel__small">Élő adat Békásmegyerről, óránként frissül · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
+          </article>
+
+          <article class="panel panel--tv reveal">
+            <div class="tv" aria-hidden="true">
+              <div class="tv__screen"><span class="tv__live">● Élő</span><span class="tv__score">2 : 1</span><span class="tv__bar"></span></div>
+              <div class="tv__legs"></div>
+            </div>
+            <h3>Meccs a Lutriban</h3>
+            <p>Folyamatos sportközvetítés több képernyőn: foci, kézi, Forma–1 — bármi, amiért érdemes együtt szurkolni.
+              A nagy meccseken telt ház van, ilyenkor érdemes időben érkezni.</p>
+            <a class="link" href="#" data-facebook-link target="_blank" rel="noopener">A heti közvetítések a Facebookon →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 VENDÉGEK ============ -->
+    <section class="section voices" id="velemenyek">
+      <div class="wrap">
+        <p class="eyebrow reveal"><span>✦</span> A vendégek szerint</p>
+        <h2 class="title reveal">Amit rólunk <em>a legtöbbször</em> írnak.</h2>
+        <div class="voices__grid">
+          <article class="voice reveal"><span class="voice__num">1</span><h3>Családias</h3><p>Kis hely, ahol a törzsvendégek név szerint köszönnek egymásnak — és az újakat is hamar befogadják.</p></article>
+          <article class="voice reveal"><span class="voice__num">2</span><h3>Kedves kiszolgálás</h3><p>Barátságos pultosok és pincérek, akik akkor is mosolyognak, amikor telt ház van.</p></article>
+          <article class="voice reveal"><span class="voice__num">3</span><h3>Barátságos árak</h3><p>Olcsó kávé, jó áron csapolt sör — a vendégeink szerint a környék egyik legkedvezőbb helye.</p></article>
+        </div>
+        <p class="voices__src reveal">A Google-on olvasható vendégértékelések visszatérő témái alapján.</p>
+      </div>
+    </section>
+
+    <!-- ============ 08 HOL VAGYUNK ============ -->
+    <section class="section visit" id="hol">
+      <div class="wrap visit__grid">
+        <div class="visit__info">
+          <p class="eyebrow reveal"><span>07</span> Hol vagyunk</p>
+          <h2 class="title reveal">Heltai Jenő tér 2. <em>A piaccal szemben.</em></h2>
+          <p class="reveal">1039 Budapest, III. kerület, Békásmegyer. A Békásmegyer HÉV-megállótól és a buszvégállomástól néhány perc séta.</p>
+
+          <p class="visit__status reveal"><span class="status status--lg" data-status><span class="status__dot"></span><span data-status-text>H–Szo 7–23 · V 9–23</span></span></p>
+
+          <ul class="hours reveal" id="hours">
+            <li><span>Hétfő</span><span>07:00 – 23:00</span></li>
+            <li><span>Kedd</span><span>07:00 – 23:00</span></li>
+            <li><span>Szerda</span><span>07:00 – 23:00</span></li>
+            <li><span>Csütörtök</span><span>07:00 – 23:00</span></li>
+            <li><span>Péntek</span><span>07:00 – 23:00</span></li>
+            <li><span>Szombat</span><span>07:00 – 23:00</span></li>
+            <li><span>Vasárnap</span><span>09:00 – 23:00</span></li>
+          </ul>
+
+          <div class="visit__actions reveal">
+            <a class="btn btn--neon" href="https://www.google.com/maps/search/?api=1&amp;query=Lutri+Eszpressz%C3%B3,+Heltai+Jen%C5%91+t%C3%A9r+2,+1039+Budapest" target="_blank" rel="noopener">Útvonaltervezés</a>
+            <a class="btn btn--ghost" href="https://maps.apple.com/?q=Lutri+Eszpressz%C3%B3&amp;address=Heltai+Jen%C5%91+t%C3%A9r+2,+1039+Budapest" target="_blank" rel="noopener">Apple Térkép</a>
+            <a class="btn btn--ghost" data-phone-link href="#"><span data-phone-text>Hívás</span></a>
+            <button class="btn btn--ghost" type="button" data-share hidden>Megosztom</button>
+          </div>
+        </div>
+
+        <div class="map reveal">
+          <button class="map__load" type="button"
+            data-map-src="https://www.google.com/maps?q=Lutri+Eszpressz%C3%B3,+Heltai+Jen%C5%91+t%C3%A9r+2,+1039+Budapest&amp;z=17&amp;output=embed">
+            <svg class="map__pin" viewBox="0 0 48 64" aria-hidden="true"><path d="M24 2C12 2 3 11 3 23c0 16 21 38 21 38s21-22 21-38C45 11 36 2 24 2z"/><circle cx="24" cy="23" r="8"/></svg>
+            <span>Térkép megnyitása</span>
+            <small>Kattintásra a Google Maps töltődik be</small>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ LÁBLÉC ============ -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__neon" aria-hidden="true">Lutri</p>
+      <p class="footer__tag">Eszpresszó · Söröző · Békásmegyer</p>
+      <p class="footer__links">
+        <a href="#" data-facebook-link target="_blank" rel="noopener">Facebook</a>
+        <a href="#itallap">Itallap</a>
+        <a href="#hol">Útvonal</a>
+      </p>
+      <p class="footer__small">1039 Budapest, Heltai Jenő tér 2. · H–Szo 7–23 · V 9–23<br>
+        © <span data-year>2026</span> Lutri Eszpresszó · Szeszes italt csak 18 éven felülieknek.</p>
+    </div>
+  </footer>
+
+  <!-- Telefonon alul mindig látható gombok -->
+  <nav class="actionbar" aria-label="Gyors elérés">
+    <a class="actionbar__btn" href="https://www.google.com/maps/search/?api=1&amp;query=Lutri+Eszpressz%C3%B3,+Heltai+Jen%C5%91+t%C3%A9r+2,+1039+Budapest" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Útvonal</a>
+    <a class="actionbar__btn actionbar__btn--main" href="#itallap">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13v5a6.5 6.5 0 0 1-13 0zm13 2h1.5a2.5 2.5 0 0 1 0 5H16.6M3 21h16"/></svg>Itallap</a>
+    <a class="actionbar__btn" data-phone-link href="#">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>Hívás</a>
+    <a class="actionbar__btn" data-facebook-link href="#" target="_blank" rel="noopener" data-fb-fallback>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8V6.5c0-.8.2-1.5 1.5-1.5H17V2h-2.6C11.5 2 11 4 11 6.2V8H9v3h2v11h3V11h2.6l.4-3z"/></svg>Facebook</a>
+  </nav>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
